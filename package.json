@@ -1,0 +1,36 @@
+{
+  "name": "leaflet-heatmap-radius",
+  "version": "0.0.0",
+  "description": "A plugin for heatmap.js to add heatmaps to leaflet, with a fixed radius option (meters).",
+  "main": "dist/leaflet-heatmap-radius.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danwild/leaflet-heatmap-radius.git"
+  },
+  "keywords": [
+    "leaflet",
+    "heatmap",
+    "visualisation"
+  ],
+  "author": "danwild@y7mail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danwild/leaflet-heatmap-radius/issues"
+  },
+  "homepage": "https://github.com/danwild/leaflet-heatmap-radius#readme",
+  "dependencies": {
+    "heatmap.js": "^2.0.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "rollup": "^0.63.4",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
