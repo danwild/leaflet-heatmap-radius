@@ -10,8 +10,8 @@ additional `radiusMeters` option, so you can have a heatmap with a concrete, kno
 
 ```javascript
 let heatmap = new HeatmapOverlay({
-	fixedRadius: true, // enable use of meters instead of pixels
-	radiusMeters: 100  // set the radius value in meters
+  fixedRadius: true, // enable use of meters instead of pixels
+  radiusMeters: 100  // set the radius value in meters
 });
 ```
 

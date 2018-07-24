@@ -1,6 +1,6 @@
 {
   "name": "leaflet-heatmap-radius",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A plugin for heatmap.js to add heatmaps to leaflet, with a fixed radius option (meters).",
   "main": "dist/leaflet-heatmap-radius.js",
   "scripts": {

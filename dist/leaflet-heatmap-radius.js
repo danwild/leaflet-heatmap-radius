@@ -140,7 +140,7 @@
 
 				var radius;
 
-				if (this.cfg.radiusMeters) {
+				if (this.cfg.fixedRadius && this.cfg.radiusMeters) {
 					radius = this._getPixelRadius();
 				} else if (entry.radius) {
 					radius = entry.radius * radiusMultiplier;
