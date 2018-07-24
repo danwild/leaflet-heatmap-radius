@@ -6,6 +6,14 @@ This is an enhanced version of
 [leaflet-heatmap](https://www.patrick-wied.at/static/heatmapjs/example-heatmap-leaflet.html) which provides an
 additional `radiusMeters` option, so you can have a heatmap with a concrete, known radius.
 
+## example
+
+```javascript
+let heatmap = new HeatmapOverlay({
+	fixedRadius: true, // enable use of meters instead of pixels
+	radiusMeters: 100  // set the radius value in meters
+});
+```
 
 ## License
 MIT License (MIT)
